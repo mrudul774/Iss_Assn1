@@ -1,0 +1,51 @@
+       SHELL NOTES
+(imp) 3w move three words 
+cw change word 
+dw  del a word
+dd  del a line 
+"A" move cursor to the end of line.
+
+
+. is to repeat previous command
+del to cut 
+p to paste
+ddp to swap lines
+
+
+/ to search for a word or a pattern 
+n to repeat search (when used after using /)
+. to do  prev command again
+
+
+:w  to save 
+:wq to save and quit
+:q! quit without saving
+1,3 to set range of 1 to 3 lines for editing purposes
+
+yy is to yank or copy complete line , // cpy in shell
+p to paste .
+
+1,3 co 9 in command copy and write after 9th line
+2,6 mo $
+moves to the ($=)end of the code 
+
+/...ld
+
+/g is globaly editable
+s
+
+1,$        s/world/hyderabad/g
+1 to end    s to substitute world with hyd g for globally
+
+% to move cursor b/w matching brackets %
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog2</title>
+</head>
+
+<body style="padding-left: 5%;font-size: large;">
+    <h2 style="color:#55ACEE;">BLOG2</h2>
+
+    <p>
+        Hai I am blog2 !!!
+        Lorem ipsum dolor sit amet,
+        consectetuer adipiscing elit,
+        sed diam nonummy nibh euismod
+        tincidunt ut laoreet dolore magna aliquam erat volutpat
+    </p>
+    <h2 style="color:#55ACEE;">Comments</h2>
+        <p>
+            comments of blog2.
+            I like this blog.
+            <br></br>
+            this is a nice blog.
+            <br></br>
+           don't forget to check out previous blog.
+        </p>
+    <script>
+        let like = 0;
+        function likes(){
+            if(like==0){
+
+                like=1;
+                let likebutton = document.getElementById("like");
+                likebutton.style.display = "none";
+                let likebutton1 = document.getElementById("like1");
+                likebutton1.style.display = "block";
+
+            } 
+            else{
+                
+                like=0;
+                let likebutton = document.getElementById("like");
+                likebutton.style.display = "block";
+                let likebutton1= document.getElementById("like1");
+                likebutton1.style.display = "none";
+
+
+            }
+
+        }
+        </script>
+        <button id = "like" style="background-color: rgb(136, 146, 238);padding-right: 3%;
+        padding-left: 2%;padding-right: 2%;" onclick="likes()">like</button>
+
+        <button id = "like1" style="background-color: rgb(241, 70, 70);padding-right: 3%;
+        padding-left: 2%;padding-right: 2%;display: none;" onclick="likes()">liked</button>
+
+</body>
+</html>

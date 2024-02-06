@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        /* Add a black background color to the top navigation */
+        .topnav {
+        background-color: #55ACEE;
+        overflow: hidden;
+        }
+
+        /* Style the links inside the navigation bar */
+        .topnav a {
+        float: left;
+        color: white;
+        text-align: center;
+        padding: 8px 15px;
+        text-decoration: none;
+        font-size: 17px;
+        }
+
+        /* Change the color of links on hover */
+        .topnav a:hover {
+        color:black;
+        background-color: sandybrown;
+        }
+
+        /* Add a color to the active/current link */
+        .topnav a.active {
+        background-color: rgb(255, 217, 0);
+        color: black;
+        }
+        img {
+        display: block;
+        margin-left: 0;
+        margin-right: auto;
+        }
+        
+        .dark-mode {
+        background-color: black;
+        color: white;
+        .flex-container {
+        display: flex;
+        background-color: black;
+        padding: 20px;
+        }
+
+        }
+        .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        }
+
+        .fa-google {
+        background: #55ACEE;
+        color: white;
+        }
+
+        .fa-github {
+        background: #55ACEE;
+        color: white;
+        }
+        .fa-instagram {
+        background: #55ACEE;
+        color: white;
+        }
+        
+         .flex-container {
+        display: flex;
+        background-color: rgba(3, 14, 24, 0);
+        padding: 10px;
+        } 
+
+         .flex-container > div {
+        background-color:white;
+        margin: 10px;
+        padding: 10px;
+        font-size: 30px;
+        }
+
+        .link{
+        text-decoration: none;
+        background-color: sandybrown;
+        color: white;
+        padding: 14px 25px;
+        }
+        
+    </style>
+</head>
+<body style="font-size: large;padding-left: 5%;">    
+    <!-- goto particular section of webpage -->
+    
+    <div class="topnav">
+        <a href="#in">Introduction</a>
+        <a href="#ebs">Education_Background</a>
+        <a href="#as">Acheivements</a>
+        <a href="#ss">Skills</a>
+        <a href="#bs">Blog</a>
+    </div>
+
+    <!-- dark mode -->
+
+    <script>
+        function toggle() {
+           var element = document.body;
+           element.classList.toggle("dark-mode");
+        }
+    </script>
+
+    <div class="flex-container">
+        <button onclick="toggle()">switch mode</button>
+    </div>
+
+    <h1 style="text-align: left; color:#2190e4;">About Myself</h1>
+
+<!-- CONTENT -->
+    <h2 style="color:#55ACEE;" id="in" >Introduction</h2>
+    <p> I am Mrudul,studying CSE in IIIT Hyderabad.
+        My age is 17, I am from Nellore, AP.
+    </p>
+
+        <!--profile pic-->
+    <img src="beach.jpg" alt="Beach" style="width: 200px; height: 200px;">
+
+
+    <h2  style="color:#55ACEE;" id="ebs">Education Background Section</h2>
+    <p>
+        
+        I studied my 6th to 10th grade in Narayana school,
+        <br> </br>
+        my 11th,12th in Narayana College in Brahmadevam, Nellore, AP.
+    </p>
+
+    <h2 style="color:#55ACEE;"id="as">Acheivements Section</h2>
+    <p>
+    Lorem ipsum dolor sit amet, <br> </br>
+    consectetuer adipiscing elit,<br> </br>
+    sed diam nonummy nibh euismod<br> </br>
+    tincidunt ut laoreet dolore magna aliquam erat volutpat.
+    </p>
+    <h2  style="color:#55ACEE;" id="ss"> Skills Section</h2>
+    <p>
+        I play badminton,and carroms well.<br> </br> 
+        Lorem ipsum dolor sit amet, <br> </br>
+        consectetuer adipiscing elit,<br> </br>
+        sed diam nonummy nibh euismod<br> </br>
+        tincidunt ut laoreet dolore magna
+        aliquam erat volutpat.
+    </p>
+    
+    <h2 style="color:#55ACEE;" id="bs">Blog Section</h2>
+    <p>
+        <h3 style="color:#55ACEE;">Blog1</h3>
+        <div style="padding-top: 2%;padding-bottom: 2%;">
+            <a class="link" href="./blog1.html" target="_blank">OpenBlog1</a>
+        </div>
+        
+        <h3  style="color:#55ACEE;">Blog2</h3>
+        <div style="padding-top: 2%;padding-bottom: 2%;">
+            <a class="link" href="./blog2.html" target="_blank">OpenBlog2</a>
+        </div>
+    </p>
+
+    <!-- file -->
+    <h2  style="color:#55ACEE;">File</h2>
+    <div style="text-decoration: none; padding-bottom: 2%;">
+        <a class="link" href="shell.txt">Open File</a>  
+    </div>
+
+    <!-- icons -->
+
+    <a href="https://github.com/mrudul774" class="fa fa-github"></a>
+    <a href="https://instagram.com/mrudulkrishnareddy" class="fa fa-instagram"></a>
+    <a href="mailto:haimrudul@gmail.com" class="fa fa-google"></a>
+
+
+    <!--  Integrate transforms and animations into your website design. -->
+</body>
+</html>
